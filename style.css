@@ -1,0 +1,80 @@
+/* Estilos do menu de redes sociais */
+#redessociais {
+    font-size: 25px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000000;
+    border-bottom: 1px solid #000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 1000;
+}
+
+#redessociais ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100%;
+}
+
+#redessociais li {
+    flex: 1;
+    text-align: center;
+}
+
+#redessociais a {
+    display: block;
+    color: #FFFFFF;
+    padding: 15px 0;
+    text-decoration: none;
+    background-color: #000000;
+    transition: color 0.3s ease;
+}
+
+#redessociais a:hover {
+    color: #dea738;
+}
+
+/* Estilos da logo */
+.logo1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px); /* 100% da tela menos a altura do menu */
+    background-color: #000000;
+    position: relative;
+    top: 60px; /* Margem para que a logo não sobreponha o menu */
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    max-width: 150vh; /* Limita a largura da logo para 90% da largura da tela */
+    max-height: 150vh; /* Limita a altura da logo para 90% da altura da tela */
+    object-fit: contain; /* Mantém a proporção da imagem */
+    margin: 0;
+    padding: 0;
+}
+
+.portifolio{
+    background-color: #000000;
+}
+
+.titulo{
+    text-align: center;
+    margin: 80px;
+    background-color: #000000;
+    color:#dea738;
+   
+}
+
+.Artes{
+    background-color: #000000;
+}
+
+
+
